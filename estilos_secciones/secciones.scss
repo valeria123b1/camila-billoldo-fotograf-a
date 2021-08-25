@@ -1,0 +1,470 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap');
+body{
+	font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+	background-color: #d0a088;
+}
+.bg-black {
+    background-color: #775130;
+}
+.fondoSeparador{
+	background-image: url("../imagenes_utilizadas/fondo.jpg");
+	background-position: center;
+	background-size: cover;
+	margin: 5vh;
+	border: 5px solid #c18567;
+}
+footer {
+    background-color: #775130;
+    margin-top: 20px;
+}
+.instagram{
+    @include itemFooter;
+}
+.instagram:hover{
+    transform: scale(1.1);
+}
+.linkedin{
+    margin-left: 50px;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.gmail{
+    @include itemFooter;
+	margin-left: 50px;
+}
+.gmail:hover{
+    transform: scale(1.1);
+}
+.whatsapp{
+    @include itemFooter;
+}
+.whatsapp:hover{
+    transform: scale(1.1);
+} 
+.copy{
+    font-size: 12px;
+	height: 35px;
+}
+.text-white{
+    margin-left: 40px;
+}
+.galImg{
+	width: 100%;
+}
+#galeria .col-lg-4{
+	padding: 25px;
+	margin: 0 !important;
+}
+#galeria img:hover{
+	transform: scale(1.1);
+	border: 5px solid #f7f7f7;
+}
+#galeria img{
+	width: 300px
+}
+.row{
+	margin-top: 50px;
+}
+.emiliaSesion{
+	@include sesiones;
+}
+.emi12{
+	margin-left: 380px;
+}
+.pMsesion{
+	@include sesiones;
+}
+.pM12{
+	margin-left: 380px;	
+}
+.mSesion{
+	@include sesiones;
+}
+.mEve12{
+	margin-left: 380px;	
+}
+.textoPrincipal{
+  font-size: 20px;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px){ 
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap');
+	body{
+		font-family: 'Bebas Neue', cursive;
+		font-family: 'Castoro', serif;
+		background-color: #d0a088;
+	}
+	.bg-black {
+		background-color: #775130;
+	}
+	.fondoSeparador{
+		background-image: url("../imagenes_utilizadas/fondo.jpg");
+		background-position: center;
+		background-size: cover;
+		margin: 5vh;
+		border: 5px solid #c18567;
+	}
+	footer {
+		background-color: #775130;
+		margin-top: 20px;
+	}
+	.instagram{
+		@include itemFooter;
+	}
+	.instagram:hover{
+		transform: scale(1.1);
+	}
+	.linkedin{
+		@include itemFooter;
+		margin-left: 50px;
+	}
+	.linkedin:hover{
+		transform: scale(1.1);
+	}
+	.gmail{
+		@include itemFooter;
+		margin-left: 50px;
+	}
+	.gmail:hover{
+		transform: scale(1.1);
+	}
+	.whatsapp{
+		@include itemFooter;
+	}
+	.whatsapp:hover{
+		transform: scale(1.1);
+	} 
+	.copy{
+		font-size: 12px;
+		height: 35px;
+	}
+	.text-white{
+		margin-left: 40px;
+	}
+	.galImg{
+		width: 100%;
+	}
+	#galeria .col-lg-4{
+		padding: 25px;
+		margin: 0 !important;
+	}
+	#galeria img:hover{
+		transform: scale(1.1);
+		border: 5px solid #f7f7f7;
+	}
+	.row{
+		margin-top: 50px;
+	}
+	.col-lg-4{
+		margin-top: 20px;
+	}
+	.emiliaSesion{
+		@include sesiones;
+	}
+	.emi12{
+		margin-left: 380px;
+	}
+	.pMsesion{
+		@include sesiones;
+	}
+	.pM12{
+		margin-left: 380px;	
+	}
+	.mSesion{
+		@include sesiones;
+	}
+	.mEve12{
+		margin-left: 380px;	
+	}
+	.textoPrincipal{
+	  font-size: 20px;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px){ 
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap');
+	body{
+		font-family: 'Bebas Neue', cursive;
+		font-family: 'Castoro', serif;
+		background-color: #d0a088;
+	}
+	.bg-black {
+		background-color: #775130;
+	}
+	.fondoSeparador{
+		background-image: url("../imagenes_utilizadas/fondo.jpg");
+		background-position: center;
+		background-size: cover;
+		margin: 5vh;
+		border: 5px solid #c18567;
+	}
+	footer {
+		background-color: #775130;
+		margin-top: 20px;
+	}
+	.instagram{
+		@include itemFooter;
+	}
+	.instagram:hover{
+		transform: scale(1.1);
+	}
+	.linkedin{
+		@include itemFooter;
+		margin-left: 50px;
+	}
+	.linkedin:hover{
+		transform: scale(1.1);
+	}
+	.gmail{
+		@include itemFooter;
+		margin-left: 50px;
+	}
+	.gmail:hover{
+		transform: scale(1.1);
+	}
+	.whatsapp{
+		@include itemFooter;
+	}
+	.whatsapp:hover{
+		transform: scale(1.1);
+	} 
+	.copy{
+		font-size: 12px;
+		height: 35px;
+	}
+	.text-white{
+		margin-left: 40px;
+	}
+	.galImg{
+		width: 100%;
+	}
+	#galeria .col-lg-4{
+		padding: 25px;
+		margin: 0 !important;
+	}
+	#galeria img:hover{
+		transform: scale(1.1);
+		border: 5px solid #f7f7f7;
+	}
+	.row{
+		margin-top: 50px;
+	}
+	.col-lg-4{
+		margin-top: 20px;
+	}
+	.emiliaSesion{
+		@include sesiones;
+	}
+	.emi12{
+		margin-left: 380px;
+	}
+	.pMsesion{
+		@include sesiones;
+	}
+	.pM12{
+		margin-left: 380px;	
+	}
+	.mSesion{
+		@include sesiones;
+	}
+	.mEve12{
+		margin-left: 380px;	
+	}
+	.textoPrincipal{
+	  font-size: 20px;
+	}
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px){ 
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap');
+	body{
+		font-family: 'Bebas Neue', cursive;
+		font-family: 'Castoro', serif;
+		background-color: #d0a088;
+	}
+	.bg-black {
+		background-color: #775130;
+	}
+	.fondoSeparador{
+		background-image: url("../imagenes_utilizadas/fondo.jpg");
+		background-position: center;
+		background-size: cover;
+		margin: 5vh;
+		border: 5px solid #c18567;
+	}
+	footer {
+		background-color: #775130;
+		margin-top: 20px;
+	}
+	.instagram{
+		@include itemFooter;
+	}
+	.instagram:hover{
+		transform: scale(1.1);
+	}
+	.linkedin{
+		@include itemFooter;
+		margin-left: 50px;
+	}
+	.linkedin:hover{
+		transform: scale(1.1);
+	}
+	.gmail{
+		@include itemFooter;
+		margin-left: 50px;
+	}
+	.gmail:hover{
+		transform: scale(1.1);
+	}
+	.whatsapp{
+		@include itemFooter;
+	}
+	.whatsapp:hover{
+		transform: scale(1.1);
+	} 
+	.copy{
+		font-size: 12px;
+		height: 35px;
+	}
+	.text-white{
+		margin-left: 40px;
+	}
+	.galImg{
+		width: 100%;
+	}
+	#galeria .col-lg-4{
+		padding: 25px;
+		margin: 0 !important;
+	}
+	#galeria img:hover{
+		transform: scale(1.1);
+		border: 5px solid #f7f7f7;
+	}
+	.row{
+		margin-top: 50px;
+	}
+	.col-lg-4{
+		margin-top: 20px;
+	}
+	.emiliaSesion{
+		@include sesiones;
+	}
+	.emi12{
+		margin-left: 380px;
+	}
+	.pMsesion{
+		@include sesiones;
+	}
+	.pM12{
+		margin-left: 380px;	
+	}
+	.mSesion{
+		@include sesiones;
+	}
+	.mEve12{
+		margin-left: 380px;	
+	}
+	.textoPrincipal{
+	  font-size: 20px;
+	}	
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px){
+	@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap');
+	body{
+		font-family: 'Bebas Neue', cursive;
+		font-family: 'Castoro', serif;
+		background-color: #d0a088;
+	}
+	.bg-black {
+		background-color: #775130;
+	}
+	.fondoSeparador{
+		background-image: url("../imagenes_utilizadas/fondo.jpg");
+		background-position: center;
+		background-size: cover;
+		margin: 5vh;
+		border: 5px solid #c18567;
+	}
+	footer {
+		background-color: #775130;
+		margin-top: 20px;
+	}
+	.instagram{
+		@include itemFooter;
+	}
+	.instagram:hover{
+		transform: scale(1.1);
+	}
+	.linkedin{
+		@include itemFooter;
+		margin-left: 50px;
+	}
+	.linkedin:hover{
+		transform: scale(1.1);
+	}
+	.gmail{
+		@include itemFooter;
+		margin-left: 50px;
+	}
+	.gmail:hover{
+		transform: scale(1.1);
+	}
+	.whatsapp{
+		@include itemFooter;
+	}
+	.whatsapp:hover{
+		transform: scale(1.1);
+	} 
+	.copy{
+		font-size: 12px;
+		height: 35px;
+	}
+	.text-white{
+		margin-left: 40px;
+	}
+	.galImg{
+		width: 100%;
+	}
+	#galeria .col-lg-4{
+		padding: 25px;
+		margin: 0 !important;
+	}
+	#galeria img:hover{
+		transform: scale(1.1);
+		border: 5px solid #f7f7f7;
+	}
+	.row{
+		margin-top: 50px;
+	}
+	.col-lg-4{
+		margin-top: 20px;
+	}
+	.emiliaSesion{
+		@include sesiones;
+	}
+	.emi12{
+		margin-left: 380px;
+	}
+	.pMsesion{
+		@include sesiones;
+	}
+	.pM12{
+		margin-left: 380px;	
+	}
+	.mSesion{
+		@include sesiones;
+	}
+	.mEve12{
+		margin-left: 380px;	
+	}
+	.textoPrincipal{
+	  font-size: 20px;
+}
+}

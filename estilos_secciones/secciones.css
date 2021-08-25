@@ -1,0 +1,573 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap");
+#emiBanner {
+  background-image: url("../emilia/banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+  opacity: .5;
+}
+
+#siteBanner {
+  background-image: url("../imagenes_utilizadas/banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+  opacity: .5;
+}
+
+#pMbanner {
+  background-image: url("../pame_y_mica/banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+  opacity: .5;
+}
+
+#eveBanner {
+  background-image: url("../maternidad_eve/banner.jpg");
+  background-size: cover;
+  background-position: 50%;
+  min-height: 400px;
+  height: 50vh;
+  position: relative;
+  opacity: .5;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Castoro', serif;
+  background-color: #d0a088;
+}
+
+.bg-black {
+  background-color: #775130;
+}
+
+.fondoSeparador {
+  background-image: url("../imagenes_utilizadas/fondo.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 5vh;
+  border: 5px solid #c18567;
+}
+
+footer {
+  background-color: #775130;
+  margin-top: 20px;
+}
+
+.instagram {
+  width: 35px;
+}
+
+.instagram:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.linkedin {
+  width: 35px;
+  margin-left: 50px;
+}
+
+.linkedin:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.gmail {
+  width: 35px;
+  margin-left: 50px;
+}
+
+.gmail:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.whatsapp {
+  width: 35px;
+}
+
+.whatsapp:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.copy {
+  font-size: 12px;
+  height: 35px;
+}
+
+.text-white {
+  margin-left: 40px;
+}
+
+.galImg {
+  width: 100%;
+}
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
+}
+
+#galeria img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 5px solid #f7f7f7;
+}
+
+#galeria img {
+  width: 300px;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.emiliaSesion {
+  width: 600px;
+  margin-left: 250px;
+}
+
+.emi12 {
+  margin-left: 380px;
+}
+
+.pMsesion {
+  width: 600px;
+  margin-left: 250px;
+}
+
+.pM12 {
+  margin-left: 380px;
+}
+
+.mSesion {
+  width: 500px;
+  margin-left: 300px;
+}
+
+.mEve12 {
+  margin-left: 380px;
+}
+
+.textoPrincipal {
+  font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+    background-color: #d0a088;
+  }
+  .bg-black {
+    background-color: #775130;
+  }
+  .fondoSeparador {
+    background-image: url("../imagenes_utilizadas/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 5vh;
+    border: 5px solid #c18567;
+  }
+  footer {
+    background-color: #775130;
+    margin-top: 20px;
+  }
+  .instagram {
+    width: 35px;
+  }
+  .instagram:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .linkedin {
+    width: 35px;
+    margin-left: 50px;
+  }
+  .linkedin:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .gmail {
+    width: 35px;
+    margin-left: 50px;
+  }
+  .gmail:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .whatsapp {
+    width: 35px;
+  }
+  .whatsapp:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .copy {
+    font-size: 12px;
+    height: 35px;
+  }
+  .text-white {
+    margin-left: 40px;
+  }
+  .galImg {
+    width: 100%;
+  }
+  #galeria .col-lg-4 {
+    padding: 25px;
+    margin: 0 !important;
+  }
+  #galeria img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border: 5px solid #f7f7f7;
+  }
+  .row {
+    margin-top: 50px;
+  }
+  .col-lg-4 {
+    margin-top: 20px;
+  }
+  .emiliaSesion {
+    width: 600px;
+    margin-left: 250px;
+  }
+  .emi12 {
+    margin-left: 380px;
+  }
+  .pMsesion {
+    width: 600px;
+    margin-left: 250px;
+  }
+  .pM12 {
+    margin-left: 380px;
+  }
+  .mSesion {
+    width: 500px;
+    margin-left: 300px;
+  }
+  .mEve12 {
+    margin-left: 380px;
+  }
+  .textoPrincipal {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+    background-color: #d0a088;
+  }
+  .bg-black {
+    background-color: #775130;
+  }
+  .fondoSeparador {
+    background-image: url("../imagenes_utilizadas/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 5vh;
+    border: 5px solid #c18567;
+  }
+  footer {
+    background-color: #775130;
+    margin-top: 20px;
+  }
+  .instagram {
+    width: 35px;
+  }
+  .instagram:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .linkedin {
+    width: 35px;
+    margin-left: 50px;
+  }
+  .linkedin:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .gmail {
+    width: 35px;
+    margin-left: 50px;
+  }
+  .gmail:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .whatsapp {
+    width: 35px;
+  }
+  .whatsapp:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .copy {
+    font-size: 12px;
+    height: 35px;
+  }
+  .text-white {
+    margin-left: 40px;
+  }
+  .galImg {
+    width: 100%;
+  }
+  #galeria .col-lg-4 {
+    padding: 25px;
+    margin: 0 !important;
+  }
+  #galeria img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border: 5px solid #f7f7f7;
+  }
+  .row {
+    margin-top: 50px;
+  }
+  .col-lg-4 {
+    margin-top: 20px;
+  }
+  .emiliaSesion {
+    width: 600px;
+    margin-left: 250px;
+  }
+  .emi12 {
+    margin-left: 380px;
+  }
+  .pMsesion {
+    width: 600px;
+    margin-left: 250px;
+  }
+  .pM12 {
+    margin-left: 380px;
+  }
+  .mSesion {
+    width: 500px;
+    margin-left: 300px;
+  }
+  .mEve12 {
+    margin-left: 380px;
+  }
+  .textoPrincipal {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+    background-color: #d0a088;
+  }
+  .bg-black {
+    background-color: #775130;
+  }
+  .fondoSeparador {
+    background-image: url("../imagenes_utilizadas/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 5vh;
+    border: 5px solid #c18567;
+  }
+  footer {
+    background-color: #775130;
+    margin-top: 20px;
+  }
+  .instagram {
+    width: 35px;
+  }
+  .instagram:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .linkedin {
+    width: 35px;
+    margin-left: 50px;
+  }
+  .linkedin:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .gmail {
+    width: 35px;
+    margin-left: 50px;
+  }
+  .gmail:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .whatsapp {
+    width: 35px;
+  }
+  .whatsapp:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .copy {
+    font-size: 12px;
+    height: 35px;
+  }
+  .text-white {
+    margin-left: 40px;
+  }
+  .galImg {
+    width: 100%;
+  }
+  #galeria .col-lg-4 {
+    padding: 25px;
+    margin: 0 !important;
+  }
+  #galeria img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border: 5px solid #f7f7f7;
+  }
+  .row {
+    margin-top: 50px;
+  }
+  .col-lg-4 {
+    margin-top: 20px;
+  }
+  .emiliaSesion {
+    width: 600px;
+    margin-left: 250px;
+  }
+  .emi12 {
+    margin-left: 380px;
+  }
+  .pMsesion {
+    width: 600px;
+    margin-left: 250px;
+  }
+  .pM12 {
+    margin-left: 380px;
+  }
+  .mSesion {
+    width: 500px;
+    margin-left: 300px;
+  }
+  .mEve12 {
+    margin-left: 380px;
+  }
+  .textoPrincipal {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+    background-color: #d0a088;
+  }
+  .bg-black {
+    background-color: #775130;
+  }
+  .fondoSeparador {
+    background-image: url("../imagenes_utilizadas/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 5vh;
+    border: 5px solid #c18567;
+  }
+  footer {
+    background-color: #775130;
+    margin-top: 20px;
+  }
+  .instagram {
+    width: 35px;
+  }
+  .instagram:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .linkedin {
+    width: 35px;
+    margin-left: 50px;
+  }
+  .linkedin:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .gmail {
+    width: 35px;
+    margin-left: 50px;
+  }
+  .gmail:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .whatsapp {
+    width: 35px;
+  }
+  .whatsapp:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .copy {
+    font-size: 12px;
+    height: 35px;
+  }
+  .text-white {
+    margin-left: 40px;
+  }
+  .galImg {
+    width: 100%;
+  }
+  #galeria .col-lg-4 {
+    padding: 25px;
+    margin: 0 !important;
+  }
+  #galeria img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border: 5px solid #f7f7f7;
+  }
+  .row {
+    margin-top: 50px;
+  }
+  .col-lg-4 {
+    margin-top: 20px;
+  }
+  .emiliaSesion {
+    width: 600px;
+    margin-left: 250px;
+  }
+  .emi12 {
+    margin-left: 380px;
+  }
+  .pMsesion {
+    width: 600px;
+    margin-left: 250px;
+  }
+  .pM12 {
+    margin-left: 380px;
+  }
+  .mSesion {
+    width: 500px;
+    margin-left: 300px;
+  }
+  .mEve12 {
+    margin-left: 380px;
+  }
+  .textoPrincipal {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=secciones.css.map */

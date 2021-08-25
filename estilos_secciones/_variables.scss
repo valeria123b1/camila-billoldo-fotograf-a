@@ -1,0 +1,31 @@
+#emiBanner{
+	background-image: url("../emilia/banner.jpg");
+    @include banner;
+}
+#siteBanner{
+	background-image: url("../imagenes_utilizadas/banner.jpg");
+	@include banner;
+}
+#pMbanner{
+	background-image: url("../pame_y_mica/banner.jpg");
+	@include banner;
+}
+#eveBanner{
+	background-image: url("../maternidad_eve/banner.jpg");
+	@include banner;
+}
+@mixin itemFooter {
+    width: 35px;
+}
+@mixin banner {
+    background-size: cover;
+	background-position: 50%;
+	min-height: 400px;
+	height: 50vh;
+	position: relative;
+	opacity: .5;
+}
+@mixin sesiones {
+    width: 600px;
+    margin-left: 250px;
+}

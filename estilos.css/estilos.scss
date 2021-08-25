@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro:ital@1&display=swap");
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+    background-color: #d0a088;
+}
+.bg-black {
+    background-color: #775130;
+}
+#siteBanner {
+  background-image: url("../imagenes_utilizadas/banner.jpg");
+	background-size: cover;
+	background-position: 50%;
+	min-height: 400px;
+	height: 50vh;
+	position: relative;
+	opacity: .5;
+}
+.textBienvenidos{
+    text-align: center;
+    margin: 50px
+}
+footer {
+    background-color: #775130;
+    margin-top: 20px;
+}
+.instagram{
+  width: 35px;
+}
+.instagram:hover{
+    transform: scale(1.1);
+}
+.linkedin{
+    width: 35px;
+    margin-left: 50px;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.whatsapp{
+    width: 35px;
+}
+.whatsapp:hover{
+    transform: scale(1.1);
+} 
+.gmail{
+    width: 35px;
+    margin-left: 50px;
+}
+.gmail:hover{
+    transform: scale(1.1);
+}
+.copy{
+    font-size: 12px;
+    height: 35px;
+}
+.parrafo_{
+  margin-top: 20px;
+}
+.parraFo{
+  margin-bottom: 20px;
+}
+.textoPrincipal{
+  font-size: 20px;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px){
+  body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+    background-color: #d0a088;
+}
+.bg-black {
+    background-color: #775130;
+}
+#siteBanner {
+  background-image: url("../imagenes_utilizadas/banner.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: 50% height=400 px;
+  font-size: 3rem;
+  line-height: 1.25em;
+  height: 50vh;
+  opacity: .5;
+}
+.textBienvenidos{
+    text-align: center;
+    margin: 50px
+}
+footer {
+    background-color: #775130;
+    margin-top: 20px;
+}
+.instagram{
+  width: 35px;
+}
+.instagram:hover{
+    transform: scale(1.1);
+}
+.linkedin{
+    width: 35px;
+    margin-left: 50px;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.whatsapp{
+    width: 35px;
+}
+.whatsapp:hover{
+    transform: scale(1.1);
+} 
+.gmail{
+    width: 35px;
+    margin-left: 50px;
+}
+.gmail:hover{
+    transform: scale(1.1);
+}
+.copy{
+    font-size: 12px;
+    height: 35px;
+}
+.parrafo_{
+  margin-top: 20px;
+}
+.parraFo{
+  margin-bottom: 20px;
+}
+.textoPrincipal{
+  font-size: 20px;
+}  
+}
+ 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px){
+  body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+    background-color: #d0a088;
+}
+.bg-black {
+    background-color: #775130;
+}
+#siteBanner {
+  background-image: url("../imagenes_utilizadas/banner.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: 50% height=400 px;
+  font-size: 3rem;
+  line-height: 1.25em;
+  height: 50vh;
+  opacity: .5;
+}
+.textBienvenidos{
+    text-align: center;
+    margin: 50px
+}
+footer {
+    background-color: #775130;
+    margin-top: 20px;
+}
+.instagram{
+  width: 35px;
+}
+.instagram:hover{
+    transform: scale(1.1);
+}
+.linkedin{
+    width: 35px;
+    margin-left: 50px;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.whatsapp{
+    width: 35px;
+}
+.whatsapp:hover{
+    transform: scale(1.1);
+} 
+.gmail{
+    width: 35px;
+    margin-left: 50px;
+}
+.gmail:hover{
+    transform: scale(1.1);
+}
+.copy{
+    font-size: 12px;
+    height: 35px;
+}
+.parrafo_{
+  margin-top: 20px;
+}
+.parraFo{
+  margin-bottom: 20px;
+}
+.textoPrincipal{
+  font-size: 20px;
+}  
+}
+ 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px){
+  body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+    background-color: #d0a088;
+}
+.bg-black {
+    background-color: #775130;
+}
+#siteBanner {
+  background-image: url("../imagenes_utilizadas/banner.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: 50% height=400 px;
+  font-size: 3rem;
+  line-height: 1.25em;
+  height: 50vh;
+  opacity: .5;
+}
+.textBienvenidos{
+    text-align: center;
+    margin: 50px
+}
+footer {
+    background-color: #775130;
+    margin-top: 20px;
+}
+.instagram{
+  width: 35px;
+}
+.instagram:hover{
+    transform: scale(1.1);
+}
+.linkedin{
+    width: 35px;
+    margin-left: 50px;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.whatsapp{
+    width: 35px;
+}
+.whatsapp:hover{
+    transform: scale(1.1);
+} 
+.gmail{
+    width: 35px;
+    margin-left: 50px;
+}
+.gmail:hover{
+    transform: scale(1.1);
+}
+.copy{
+    font-size: 12px;
+    height: 35px;
+}
+.parrafo_{
+  margin-top: 20px;
+}
+.parraFo{
+  margin-bottom: 20px;
+}
+.textoPrincipal{
+  font-size: 20px;
+}
+}
+ 
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px){
+  body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Castoro', serif;
+    background-color: #d0a088;
+}
+.bg-black {
+    background-color: #775130;
+}
+#siteBanner {
+  background-image: url("../imagenes_utilizadas/banner.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: 50% height=400 px;
+  font-size: 3rem;
+  line-height: 1.25em;
+  height: 50vh;
+  opacity: .5;
+}
+.textBienvenidos{
+    text-align: center;
+    margin: 50px
+}
+footer {
+    background-color: #775130;
+    margin-top: 20px;
+}
+.instagram{
+  width: 35px;
+}
+.instagram:hover{
+    transform: scale(1.1);
+}
+.linkedin{
+    width: 35px;
+    margin-left: 50px;
+}
+.linkedin:hover{
+    transform: scale(1.1);
+}
+.whatsapp{
+    width: 35px;
+}
+.whatsapp:hover{
+    transform: scale(1.1);
+} 
+.gmail{
+    width: 35px;
+    margin-left: 50px;
+}
+.gmail:hover{
+    transform: scale(1.1);
+}
+.copy{
+    font-size: 12px;
+    height: 35px;
+}
+.parrafo_{
+  margin-top: 20px;
+}
+.parraFo{
+  margin-bottom: 20px;
+}
+.textoPrincipal{
+  font-size: 20px;
+}
+}
